@@ -1,0 +1,21 @@
+{ 
+    "activityA": [
+        "sit_down",
+        "clapping",
+        "point_to_something",
+        "check_watch",
+        "stand_up"
+    ],
+    "activityB": [
+        "clapping",
+        "check_watch",
+        "salute",
+        "sit_down"
+    ],
+    "activityC": [
+        "salute",
+        "sit_down",
+        "drink_water",
+        "stand_up"
+    ]
+}

@@ -1,0 +1,22 @@
+drinking
+316 330
+1197 1211
+eating
+782 816
+writing
+402 465
+opening cupboard
+233 256
+978 1002
+opening microwave oven
+674 707
+washing hands
+sweeping
+115 173
+1065 1140
+gargling
+891 923
+Throwing trash
+597 620
+wiping
+530 571
