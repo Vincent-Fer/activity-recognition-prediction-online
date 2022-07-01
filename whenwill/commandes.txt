@@ -1,0 +1,8 @@
+eval cnn : python eval.py --obs_perc=.2 --recog_dir="./save_dir/results/cnn/with/obs0.2-pred0.1" --ground_truth_path="./data/groundTruth"
+
+eval rnn: python eval.py --obs_perc=.2 --recog_dir="./save_dir/results/rnn/with/obs0.2-pred0.1" --ground_truth_path="./data/groundTruth"
+
+predict cnn avec : python main.py --model=cnn --action=predict --vid_list_file=./data/test.split1.bundle --model_save_path="./save_dir/models/cnn" --results_save_path="./save_dir/results/cnn" --input_type=gt
+predict cnn sans : python main.py --model=cnn --action=predict --vid_list_file=./data/test.split1.bundle --model_save_path="./save_dir/models/cnn" --results_save_path="./save_dir/results/cnn"
+
+predict rnn avec : python main.py --model=rnn --action=predict --vid_list_file=./data/test.split1.bundle --model_save_path="./save_dir/models/rnn" --results_save_path="./save_dir/results/rnn" --input_type=gt
